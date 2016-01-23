@@ -18,6 +18,7 @@ $args = array();
 
 $push->ios($device_token, $message, $args);
 
+```
 
 # Android push notification
 
