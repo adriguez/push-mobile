@@ -17,4 +17,16 @@ $message = "Hola, soy una alerta push a iOS";
 $args = array();
 
 $push->ios($device_token, $message, $args);
-´´´
+
+
+# Android push notification
+
+```php
+require_once('../src/class.pushmobile.php');
+
+$push = new PushNotification();
+$device_token = "123456abcd";
+$message = "Hola, soy una alerta push a Android";
+$args = array();
+
+$push->android($device_token, $message, $args);
